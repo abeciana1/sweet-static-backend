@@ -47,8 +47,8 @@ group :development, :test do
   gem 'factory_bot_rails' # Optional: for easier test data creation
   gem 'faker'
   gem 'pry'
-  gem 'shoulda-matchers', '~> 6.0'
-  gem 'shoulda', '~> 3.5'
+  gem 'shoulda-matchers'
+  gem 'shoulda'
 end
 
 group :development do
